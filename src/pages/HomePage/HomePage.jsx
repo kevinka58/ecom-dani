@@ -10,9 +10,9 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div className="right">
-                    <div>
-                        <h1>Hello This is my Home Page</h1>
-                    </div>
+                        <div className="itemContainer">
+                            <span>Hello This is my Home Page</span>
+                        </div>
                 </div>
             </div>
         </div>

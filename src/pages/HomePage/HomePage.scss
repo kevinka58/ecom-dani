@@ -23,8 +23,12 @@
         }
     }
     .right{
+        display: flex;
         flex: 0.5;
-
+        align-items: center;
         
+        .itemContainer{
+            display: flex;
+        }
     }
     
