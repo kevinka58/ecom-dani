@@ -5,12 +5,12 @@ export default function ProductPage() {
     const data = [
         {
             name: "Turtle 1",
-            price: 25,
+            price: 25.99,
             image: <img src="Assets/turtle.jpeg" alt="turtle"></img>
         },
         {
             name: "Beaver",
-            price: 25,
+            price: 25.99,
             image: <img src="Assets/beaver1.jpeg" alt="turtle"></img>
         }
     ]
@@ -24,6 +24,9 @@ export default function ProductPage() {
                     </div>
                     <div className="bottom">
                         <h3>{d.name}</h3>
+                    </div>
+                    <div className="price">
+                        <h4>{d.price}$</h4>
                     </div>
                     </div>
                 ))}
